@@ -2,6 +2,14 @@
 
 A reader for extra-biblical works — texts that fall outside the major Christian and Jewish canons (for example, apocrypha, pseudepigrapha, deuterocanonical books, and related ancient literature).
 
+## License
+
+**Application code** (this repository’s software — UI, tooling, layout, and reader logic) is licensed under the [MIT License](LICENSE). You may use, modify, and distribute it freely under those terms.
+
+**Included texts are not covered by MIT.** Each work brought into the app remains under its own copyright and license (public domain, Creative Commons, permission-granted, etc.). Rights and attribution for a given text are documented in that work’s `works/<slug>/source.json` and must be respected independently of the MIT license on the app itself.
+
+Do not assume that because the app is MIT-licensed, every text in it is free to reuse. Check each work’s metadata before redistributing or adapting its content.
+
 ## Development
 
 ```bash
